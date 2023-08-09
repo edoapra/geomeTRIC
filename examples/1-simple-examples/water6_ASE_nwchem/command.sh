@@ -5,7 +5,7 @@ geometric-optimize --ase-class=ase.calculators.nwchem.NWChem \
 	       "center":"True",
 	       "autosym":"True",
  	       "geompar":" store_symrot",
-	       "dft":"; xc xpbe96 cpbe96; disp vdw 4; mult 1; noio ; convergence fast; vectors input nwchem.movecs; end" ,
+	       "dft":"; xc xpbe96 cpbe96; disp vdw 4; mult 1; noio ; convergence fast; end" ,
 	       "basis \"cd basis\"  spherical":"; * library weigend_coulomb_fitting;  end",
  	       "basis":"def2-svpd", 
 	       "basispar":"spherical"}' \
